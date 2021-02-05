@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "server/1.0.0": {
+        "dependencies": {
+          "encryption": "1.0.0"
+        },
+        "runtime": {
+          "server.dll": {}
+        }
+      },
+      "encryption/1.0.0": {
+        "runtime": {
+          "encryption.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "server/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "encryption/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
